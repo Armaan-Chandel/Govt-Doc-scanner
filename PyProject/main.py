@@ -1,4 +1,19 @@
 import streamlit as st
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: #283747;
+    }
+
+    section[data-testid="stSidebar"] {
+        background-color: #1b2631;
+    }
+
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 st.title("Government Scheme Info App")
 
